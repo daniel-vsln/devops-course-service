@@ -1,3 +1,3 @@
-module github.com/ALT-F4-LLC/fem-eci-service
+module github.com/daniel-vsln/devops-course-service
 
 go 1.20
