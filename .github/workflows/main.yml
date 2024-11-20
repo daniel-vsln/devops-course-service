@@ -65,7 +65,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           ECS_SERVICE_NAME: "service-prod"
-          ECS_CLUSTER_NAME: "devops-course-test-prod"
+          ECS_CLUSTER_NAME: "devops-course-daniel-vsln-prod"
         run: |
           #!/bin/bash
           aws ecs describe-task-definition \
